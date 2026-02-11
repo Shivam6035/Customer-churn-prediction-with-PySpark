@@ -6,7 +6,7 @@ Total Records: 148 customer records are visible in the context provided.
 
 Churn Rate: A total of 45 customers (approximately 30.4%) have 'Yes' for Churn, while 103 customers (approximately 69.6%) have 'No'.
 
-### Demographics
+### Demographics :
 
 Gender Distribution: The customers are almost equally split, with 75 Females and 73 Males.
 
@@ -16,7 +16,7 @@ Partner Status: 77 customers have a Partner, and 71 do not.
 
 Dependents Status: 102 customers do not have Dependents, compared to 46 who do.
 
-### Contract and Billing
+### Contract and Billing :
 
 Contract Type Distribution:
 Month-to-month contracts are the most common, accounting for 87 customers.
@@ -26,7 +26,7 @@ One year contracts have 35 customers.
 Two year contracts have 26 customers.
 
 
-### Payment Method Distribution:
+### Payment Method Distribution :
 
 Electronic check is the most frequent payment method (71 customers).
 
