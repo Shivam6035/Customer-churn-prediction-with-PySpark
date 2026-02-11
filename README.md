@@ -1,6 +1,6 @@
 # Customer-churn-prediction-with-PySpark
 
-### About Data
+# About Data
 
 Total Records: 148 customer records are visible in the context provided.
 Churn Rate: A total of 45 customers (approximately 30.4%) have 'Yes' for Churn, while 103 customers (approximately 69.6%) have 'No'.
