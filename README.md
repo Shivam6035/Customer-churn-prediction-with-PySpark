@@ -49,7 +49,7 @@ data - /content/drive/MyDrive/data for project /dataset_pyspark_churn.csv
 
 <img width="1227" height="836" alt="image" src="https://github.com/user-attachments/assets/59a12dbe-3310-4d96-ba82-fcde2acdcf14" />
 
-### 1. tenure
+### 1. Tenure
 This histogram tracks the duration of time customers have stayed with the service.
 
 * Distribution: The data is heavily concentrated at the lower end. There is a massive spike in the first bin (0–25 units), indicating a high volume of new customers or high early-stage churn.
@@ -73,6 +73,34 @@ This histogram represents the total amount of money a customer has paid over the
 * Observations: The highest frequency is in the $0–$500 range. As the dollar amount increases, the frequency steadily decays. This aligns with the "tenure" graph; since many customers have low tenure, their total accumulated charges remain low. Only a small fraction of long-term, high-paying customers reach the $8,000+ category.
 
 
+# Breakdown by Contract Type
+
+<img width="1084" height="525" alt="newplot" src="https://github.com/user-attachments/assets/1d0e2f9a-eba6-4731-9306-0a5aaf0c40cf" />
+
+
+### Month-to-month:
+
+* This category has the highest total count of customers, nearing 4,000.
+
+* It also exhibits the highest volume of churn (indicated in red), with approximately 1,700 customers leaving.
+
+* The churn rate for this segment is significantly higher than any other group.
+
+### One year:
+
+* The total volume is much lower, around 1,500 customers.
+
+* Retention is notably better here; the vast majority (roughly 1,300) did not churn.
+
+* Only a small portion, approximately 200 customers, left the service.
+
+### Two year:
+
+* This segment has a total count of about 1,700 customers.
+
+* It boasts the highest retention rate, with nearly all customers (about 1,650) remaining with the service.
+
+* Churn is almost negligible in this category, represented by a very thin red sliver at the top of the bar.
 
 
 
