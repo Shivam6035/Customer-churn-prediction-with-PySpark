@@ -102,5 +102,15 @@ This histogram represents the total amount of money a customer has paid over the
 
 * Churn is almost negligible in this category, represented by a very thin red sliver at the top of the bar.
 
+# Model Performance vs. maxDepth
+<img width="1084" height="525" alt="newplot (1)" src="https://github.com/user-attachments/assets/9a5520fc-5cbb-47a9-8738-7e8d7d7cef68" />
+
+
+* Training AUC (Blue Line): After an initial dip at a depth of 5, the training AUC steadily climbs as complexity increases, eventually approaching a near-perfect score of 1.0 at a depth of 20.
+
+* Testing AUC (Red Line): The testing AUC mirrors the training performance until a depth of approximately 6, where it peaks near 0.80. Beyond this point, as depth increases, the testing AUC begins to decline, dropping toward 0.68.
+
+* Overfitting Indicator: The widening gap between the rising training AUC and the falling testing AUC after a depth of 6 is a classic sign of overfitting. The model is learning the training data's noise rather than generalizing to new data.
+
 
 
