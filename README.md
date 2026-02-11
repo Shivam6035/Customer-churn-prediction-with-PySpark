@@ -44,9 +44,35 @@ Tenure: The customer tenure ranges from 1 month up to a maximum of 72 months.
 
 data - /content/drive/MyDrive/data for project /dataset_pyspark_churn.csv
 
+# Customer Metrics Explained
 
 
 <img width="1227" height="836" alt="image" src="https://github.com/user-attachments/assets/59a12dbe-3310-4d96-ba82-fcde2acdcf14" />
+
+### 1. tenure
+This histogram tracks the duration of time customers have stayed with the service.
+
+* Distribution: The data is heavily concentrated at the lower end. There is a massive spike in the first bin (0–25 units), indicating a high volume of new customers or high early-stage churn.
+
+* Observations: After the initial spike, the frequency remains relatively steady until about 70–80 units, after which it drops off completely. Although the X-axis extends to 450, there is no visible data beyond the 100-unit mark, suggesting the majority of the customer base is relatively "young" in terms of account age.
+
+### 2. MonthlyCharges
+This chart visualizes the distribution of the monthly bills paid by customers.
+
+* Distribution: This is a bimodal (multi-peak) distribution, showing two distinct customer segments.
+
+* Primary Peak: There is a very sharp spike at the $20 range, likely representing customers on "Basic" or "Entry-level" plans.
+
+* Secondary Cluster: A second, broader cluster appears between $70 and $110, indicating a large group of customers subscribed to "Premium" or bundled services (e.g., high-speed internet + TV).
+
+### 3. TotalCharges
+This histogram represents the total amount of money a customer has paid over their entire tenure.
+
+* Distribution: The data shows a strong right skew (positive skew).
+
+* Observations: The highest frequency is in the $0–$500 range. As the dollar amount increases, the frequency steadily decays. This aligns with the "tenure" graph; since many customers have low tenure, their total accumulated charges remain low. Only a small fraction of long-term, high-paying customers reach the $8,000+ category.
+
+
 
 
 
