@@ -28,7 +28,7 @@ Two year contracts have 26 customers.
 
 ### Payment Method Distribution :
 
-Electronic check is the most frequent payment method (71 customers).
+* Electronic check is the most frequent payment method (71 customers).
 
 Mailed check is used by 32 customers.
 
@@ -42,7 +42,11 @@ Total Charges: The values for Total Charges span from a minimum of $19.45 up to 
 
 Tenure: The customer tenure ranges from 1 month up to a maximum of 72 months.
 
-
 data - /content/drive/MyDrive/data for project /dataset_pyspark_churn.csv
 
-Hands-on customer churn analysis using PySpark. This project showcases the practical application of PySpark for machine learning, focusing on predicting and understanding customer churn.
+
+
+<img width="1227" height="836" alt="image" src="https://github.com/user-attachments/assets/59a12dbe-3310-4d96-ba82-fcde2acdcf14" />
+
+
+
